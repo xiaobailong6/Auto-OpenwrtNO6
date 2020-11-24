@@ -35,11 +35,31 @@ config server
 	option ip '114.114.114.114'
 	option port '53'
 
+config server
+	option enabled '1'
+	option type 'udp'
+	option name 'ALi'
+	option ip '223.5.5.5'
+	option port '53'
+
+config server
+	option enabled '1'
+	option type 'udp'
+	option name 'TenXun'
+	option ip '119.29.29.29'
+	option port '53'
 
 config server
 	option enabled '1'
 	option type 'udp'
 	option name 'BaiDu'
 	option ip '180.76.76.76'
+	option port '53'
+
+config server
+	option enabled '1'
+	option type 'udp'
+	option name 'CNNIC'
+	option ip '1.2.4.8'
 	option port '53'
 
