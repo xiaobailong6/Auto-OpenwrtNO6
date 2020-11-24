@@ -14,6 +14,8 @@ git clone https://github.com/garypang13/luci-app-eqos.git package/diy/luci-app-e
 git clone https://github.com/jerrykuku/node-request.git package/diy/node-request  #京东签到依赖
 git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/diy/luci-app-jd-dailybonus  #京东签到
 git clone https://github.com/esirplayground/luci-app-poweroff.git package/diy/luci-app-poweroff  #关机（增加关机功能）
+svn co https://github.com/xiaorouji/openwrt-package/trunk/others package/lean/others #其他的插件
+svn co https://github.com/xiaorouji/openwrt-package/trunk/lienol/luci-app-filebrowser package/lean/luci-app-filebrowser  #文件浏览器
 
 #增加LEDE的ShadowSocksR Plus+出国软件 (源码自带passwall出国软件)
 sed -i '$a src-git helloworld https://github.com/fw876/helloworld' feeds.conf.default
