@@ -35,31 +35,11 @@ config server
 	option ip '114.114.114.114'
 	option port '53'
 
-config server
-	option enabled '1'
-	option type 'udp'
-	option name '阿里'
-	option ip '223.5.5.5'
-	option port '53'
 
 config server
 	option enabled '1'
 	option type 'udp'
-	option name '腾讯'
-	option ip '119.29.29.29'
-	option port '53'
-
-config server
-	option enabled '1'
-	option type 'udp'
-	option name '百度'
+	option name 'BaiDu'
 	option ip '180.76.76.76'
-	option port '53'
-
-config server
-	option enabled '1'
-	option type 'udp'
-	option name 'CNNIC'
-	option ip '1.2.4.8'
 	option port '53'
 
