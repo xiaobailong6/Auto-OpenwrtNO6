@@ -21,6 +21,7 @@ svn co https://github.com/xiaorouji/openwrt-package/trunk/lienol/luci-app-passwa
 svn co https://github.com/xiaorouji/openwrt-package/trunk/package package/lean/package  #passwall出国软件配套
 svn co https://github.com/xiaorouji/openwrt-package/trunk/others package/lean/others #其他的插件
 git clone https://github.com/esirplayground/luci-app-poweroff.git package/lean/luci-app-poweroff  #关机（增加关机功能）
+git clone https://github.com/rufengsuixing/luci-app-adguardhome package/lean/luci-app-adguardhome #adguardhome去广告插件
 
 #git clone https://github.com/xiaobailong6/openwrt-filebrowser.git package/lean/luci-app-filebrowser #文件浏览器
 
